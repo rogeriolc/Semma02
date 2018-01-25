@@ -8,9 +8,9 @@ namespace Semma02.Membership
     [BasedOnRow(typeof(Administration.Entities.UserRow))]
     public class LoginRequest : ServiceRequest
     {
-        [Placeholder("default username is 'admin'")]
+        [Placeholder("Login")]
         public string Username { get; set; }
-        [PasswordEditor, Placeholder("default password for 'admin' is 'serenity'"), Required(true)]
+        [PasswordEditor, Placeholder("Senha"), Required(true)]
         public string Password { get; set; }
     }
 }
