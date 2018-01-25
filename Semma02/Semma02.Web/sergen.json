@@ -1,0 +1,9 @@
+﻿{
+  "RootNamespace": "Semma02",
+  "ServerTypings": {
+    "Assemblies": []
+  },
+  "Connections": [],
+  "BaseRowClasses": [],
+  "RemoveForeignFields": []
+}
